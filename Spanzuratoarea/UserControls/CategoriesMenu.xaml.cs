@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Spanzuratoarea
+namespace Spanzuratoarea.UserControls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CategoriesMenu.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CategoriesMenu : UserControl
     {
-        public MainWindow()
+        public CategoriesMenu()
         {
             InitializeComponent();
-        }
-
-        private void SingInView_Loaded(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

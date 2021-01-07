@@ -10,24 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Spanzuratoarea
+namespace Spanzuratoarea.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StudentAbout.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StudentAbout : Window
     {
-        public MainWindow()
+        public StudentAbout()
         {
             InitializeComponent();
         }
 
-        private void SingInView_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
     }
 }
