@@ -1,2 +1,2 @@
 # Hanged-man
-hanged man
+Hanged man
